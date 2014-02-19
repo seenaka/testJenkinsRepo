@@ -44,7 +44,7 @@
   <reporters/>
   <publishers>
     <hudson.tasks.ArtifactArchiver>
-      <artifacts>*/target/**</artifacts>
+      <artifacts>web/target/*.war</artifacts>
       <latestOnly>false</latestOnly>
       <allowEmptyArchive>false</allowEmptyArchive>
     </hudson.tasks.ArtifactArchiver>
