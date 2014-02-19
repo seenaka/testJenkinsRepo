@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson>
-  <disabledAdministrativeMonitors>
-    <string>jenkins.diagnostics.SecurityIsOffMonitor</string>
-  </disabledAdministrativeMonitors>
+  <disabledAdministrativeMonitors/>
   <version>1.551</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
