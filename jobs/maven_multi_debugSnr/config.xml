@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <maven2-moduleset plugin="maven-plugin@2.1">
   <actions/>
-  <description>update UI 2</description>
+  <description>jjhgkjhgkhjgjh</description>
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.plugins.filesystem_scm.FSSCM" plugin="filesystem_scm@1.20">
@@ -28,10 +28,10 @@
     <groupId>org.example</groupId>
     <artifactId>sample</artifactId>
   </rootModule>
-  <goals>package</goals>
+  <goals>clean package</goals>
   <defaultGoals>package</defaultGoals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
-  <incrementalBuild>true</incrementalBuild>
+  <incrementalBuild>false</incrementalBuild>
   <ignoreUpstremChanges>true</ignoreUpstremChanges>
   <archivingDisabled>false</archivingDisabled>
   <resolveDependencies>false</resolveDependencies>
@@ -43,11 +43,6 @@
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
   <reporters/>
   <publishers>
-    <hudson.tasks.ArtifactArchiver>
-      <artifacts></artifacts>
-      <latestOnly>false</latestOnly>
-      <allowEmptyArchive>false</allowEmptyArchive>
-    </hudson.tasks.ArtifactArchiver>
     <hudson.plugins.sonar.SonarPublisher plugin="sonar@2.1">
       <jdk>(Inherit From Job)</jdk>
       <branch></branch>
