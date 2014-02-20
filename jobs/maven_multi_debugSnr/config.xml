@@ -41,14 +41,7 @@
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
   <reporters/>
   <publishers/>
-  <buildWrappers>
-    <hudson.plugins.m2__repo__reaper.M2RepoReaperWrapper plugin="m2-repo-reaper@1.0">
-      <artifactPatterns>org/example/**</artifactPatterns>
-      <patterns>
-        <string>org/example/**</string>
-      </patterns>
-    </hudson.plugins.m2__repo__reaper.M2RepoReaperWrapper>
-  </buildWrappers>
+  <buildWrappers/>
   <prebuilders/>
   <postbuilders/>
   <runPostStepsIfResult>
