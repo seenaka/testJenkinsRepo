@@ -20,14 +20,13 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <jdk>(Inherit From Job)</jdk>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
     <groupId>org.example</groupId>
     <artifactId>sample</artifactId>
   </rootModule>
-  <goals>install</goals>
+  <goals>clean install</goals>
   <defaultGoals>package</defaultGoals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>true</incrementalBuild>
@@ -41,23 +40,7 @@
   <settings class="jenkins.mvn.DefaultSettingsProvider"/>
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
   <reporters/>
-  <publishers>
-    <hudson.tasks.ArtifactArchiver>
-      <artifacts>web/target/*.war</artifacts>
-      <latestOnly>false</latestOnly>
-      <allowEmptyArchive>false</allowEmptyArchive>
-    </hudson.tasks.ArtifactArchiver>
-    <hudson.plugins.sonar.SonarPublisher plugin="sonar@2.1">
-      <jdk>(Inherit From Job)</jdk>
-      <branch></branch>
-      <language></language>
-      <mavenOpts></mavenOpts>
-      <jobAdditionalProperties></jobAdditionalProperties>
-      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
-      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
-      <usePrivateRepository>false</usePrivateRepository>
-    </hudson.plugins.sonar.SonarPublisher>
-  </publishers>
+  <publishers/>
   <buildWrappers>
     <hudson.plugins.m2__repo__reaper.M2RepoReaperWrapper plugin="m2-repo-reaper@1.0">
       <artifactPatterns>org/example/**</artifactPatterns>
