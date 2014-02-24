@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <maven2-moduleset plugin="maven-plugin@2.1">
   <actions/>
-  <description>update1</description>
+  <description>update2</description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty plugin="maven-repo-cleaner@1.2">
