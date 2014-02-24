@@ -8,7 +8,41 @@
       <notOnThisProject>false</notOnThisProject>
     </org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty>
   </properties>
-  <scm class="hudson.scm.NullSCM"/>
+  <scm class="hudson.scm.CVSSCM" plugin="cvs@2.11">
+    <flatten>true</flatten>
+    <repositories>
+      <hudson.scm.CvsRepository>
+        <cvsRoot></cvsRoot>
+        <repositoryItems>
+          <hudson.scm.CvsRepositoryItem>
+            <modules>
+              <hudson.scm.CvsModule>
+                <localName></localName>
+                <remoteName></remoteName>
+              </hudson.scm.CvsModule>
+            </modules>
+            <location class="hudson.scm.CvsRepositoryLocation$HeadRepositoryLocation">
+              <locationType>HEAD</locationType>
+              <useHeadIfNotFound>false</useHeadIfNotFound>
+            </location>
+          </hudson.scm.CvsRepositoryItem>
+        </repositoryItems>
+        <compressionLevel>-1</compressionLevel>
+        <excludedRegions>
+          <hudson.scm.ExcludedRegion>
+            <pattern></pattern>
+          </hudson.scm.ExcludedRegion>
+        </excludedRegions>
+        <passwordRequired>false</passwordRequired>
+      </hudson.scm.CvsRepository>
+    </repositories>
+    <canUseUpdate>true</canUseUpdate>
+    <skipChangeLog>false</skipChangeLog>
+    <pruneEmptyDirectories>true</pruneEmptyDirectories>
+    <disableCvsQuiet>false</disableCvsQuiet>
+    <cleanOnFailedUpdate>false</cleanOnFailedUpdate>
+    <forceCleanCopy>false</forceCleanCopy>
+  </scm>
   <canRoam>true</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
