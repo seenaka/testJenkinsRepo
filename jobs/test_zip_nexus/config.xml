@@ -24,12 +24,12 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>tar -zcvf $BUILD_TAG $WORKSPACE </command>
+      <command>tar -zcvf ${BUILD_TAG}.zip ${WORKSPACE}</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
     <hudson.tasks.ArtifactArchiver>
-      <artifacts>**/*.zip</artifacts>
+      <artifacts>*.zip</artifacts>
       <latestOnly>false</latestOnly>
       <allowEmptyArchive>false</allowEmptyArchive>
     </hudson.tasks.ArtifactArchiver>
