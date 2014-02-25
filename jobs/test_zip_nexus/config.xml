@@ -24,7 +24,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>tar -zcvf ${BUILD_TAG}.zip ${WORKSPACE}</command>
+      <command>zip -r ${BUILD_TAG}.zip ${WORKSPACE}</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
