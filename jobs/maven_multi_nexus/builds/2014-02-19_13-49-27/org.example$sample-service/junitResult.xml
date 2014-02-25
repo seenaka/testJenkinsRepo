@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <file>/Users/seena/.jenkins/workspace/maven_multi_debugSnr/service/target/surefire-reports/TEST-org.example.service.GreetingServiceTest.xml</file>
+      <name>org.example.service.GreetingServiceTest</name>
+      <duration>0.593</duration>
+      <cases>
+        <case>
+          <duration>0.593</duration>
+          <className>org.example.service.GreetingServiceTest</className>
+          <testName>testGreet</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.593</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

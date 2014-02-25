@@ -1,0 +1,74 @@
+<log plugin="filesystem_scm@1.20">
+  <logs>
+    <changelog>
+      <parent reference="../../.."/>
+      <paths>
+        <path>
+          <value>implementation/target/classes/META-INF/MANIFEST.MF</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/classes/META-INF/maven/org.example/sample-implementation/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/classes/META-INF/maven/org.example/sample-implementation/pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/classes/META-INF/MANIFEST.MF</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/classes/META-INF/maven/org.example/sample-interface/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/classes/META-INF/maven/org.example/sample-interface/pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>pom.xml</value>
+          <action>EDIT</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/classes/META-INF/MANIFEST.MF</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/classes/META-INF/maven/org.example/sample-service/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/classes/META-INF/maven/org.example/sample-service/pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/m2e-wtp/web-resources/META-INF/maven/org.example/sample-web/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/m2e-wtp/web-resources/META-INF/maven/org.example/sample-web/pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+      </paths>
+    </changelog>
+  </logs>
+</log>

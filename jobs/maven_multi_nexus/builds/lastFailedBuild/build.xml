@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@2.1">
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <number>20</number>
+  <startTime>1392865708077</startTime>
+  <result>FAILURE</result>
+  <duration>597</duration>
+  <charset>MacRoman</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/seena/.jenkins/workspace/maven_multi_debugSnr</workspace>
+  <hudsonVersion>1.551</hudsonVersion>
+  <scm class="hudson.plugins.filesystem_scm.ChangelogSet$XMLSerializer" plugin="filesystem_scm@1.20"/>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>unknown</string>
+  </culprits>
+  <mavenVersionUsed>3.1.1</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

@@ -1,0 +1,36 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/seena/.jenkins/workspace/maven_multi_sonar
+Cloning the remote Git repository
+Cloning repository https://github.com/manish-in-java/maven-multi-module.git
+Fetching upstream changes from https://github.com/manish-in-java/maven-multi-module.git
+Fetching upstream changes from https://github.com/manish-in-java/maven-multi-module.git
+Checking out Revision 229fc82bc257ed5aca2271843d5f9b80d9cc3a3d (origin/master)
+ERROR: Processing failed due to a bug in the code. Please report this to jenkinsci-users@googlegroups.com
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.IllegalArgumentException: /Users/seena/development/STS/maven-multi-module doesn't have a 'lib' subdirectory - thus cannot be a valid maven installation!
+	at hudson.maven.MavenEmbedderUtils.buildClassRealm(MavenEmbedderUtils.java:83)
+	at hudson.maven.MavenEmbedderUtils.getMavenVersion(MavenEmbedderUtils.java:188)
+	at hudson.maven.MavenVersionCallable.call(MavenVersionCallable.java:70)
+	at hudson.maven.MavenVersionCallable.call(MavenVersionCallable.java:42)
+	at hudson.FilePath.act(FilePath.java:1006)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.doRun(MavenModuleSetBuild.java:617)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:565)
+	at hudson.model.Run.execute(Run.java:1670)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:519)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:231)
+project=hudson.maven.MavenModuleSet@68b7b6ef[maven_multi_sonar]
+project.getModules()=[]
+project.getRootModule()=null
+FATAL: /Users/seena/development/STS/maven-multi-module doesn't have a 'lib' subdirectory - thus cannot be a valid maven installation!
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.IllegalArgumentException: /Users/seena/development/STS/maven-multi-module doesn't have a 'lib' subdirectory - thus cannot be a valid maven installation!
+	at hudson.maven.MavenEmbedderUtils.buildClassRealm(MavenEmbedderUtils.java:83)
+	at hudson.maven.MavenEmbedderUtils.getMavenVersion(MavenEmbedderUtils.java:188)
+	at hudson.maven.MavenVersionCallable.call(MavenVersionCallable.java:70)
+	at hudson.maven.MavenVersionCallable.call(MavenVersionCallable.java:42)
+	at hudson.FilePath.act(FilePath.java:1006)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.doRun(MavenModuleSetBuild.java:617)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:565)
+	at hudson.model.Run.execute(Run.java:1670)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:519)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:231)

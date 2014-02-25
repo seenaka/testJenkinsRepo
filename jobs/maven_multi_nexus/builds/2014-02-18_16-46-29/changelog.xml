@@ -1,0 +1,264 @@
+<log plugin="filesystem_scm@1.20">
+  <logs>
+    <changelog>
+      <parent reference="../../.."/>
+      <paths>
+        <path>
+          <value>implementation/pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/src/main/java/org/example/core/Greeter.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/src/main/resources/springImplementationContext.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/classes/org/example/core/Greeter.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/classes/springImplementationContext.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/maven-archiver/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/sample-implementation-1.0.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/src/main/java/org/example/core/IGreeter.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/classes/org/example/core/IGreeter.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/maven-archiver/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/sample-interface-1.0.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/src/main/java/org/example/service/GreetingService.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/src/main/resources/springServiceContext.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/src/test/java/org/example/service/GreetingServiceTest.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/classes/org/example/service/GreetingService.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/classes/springServiceContext.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/maven-archiver/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/sample-service-1.0.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/surefire-reports/org.example.service.GreetingServiceTest.txt</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/surefire-reports/TEST-org.example.service.GreetingServiceTest.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/test-classes/org/example/service/GreetingServiceTest.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/src/main/java/org/example/web/HomeController.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/src/main/resources/springWebContext.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/src/main/webapp/css/bootstrap.css</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/src/main/webapp/page/home.jsp</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/src/main/webapp/WEB-INF/web.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/classes/org/example/web/HomeController.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/classes/springWebContext.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/maven-archiver/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/css/bootstrap.css</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/page/home.jsp</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/classes/org/example/web/HomeController.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/classes/springWebContext.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/aopalliance-1.0.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/commons-logging-1.1.1.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/sample-implementation-1.0.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/sample-interface-1.0.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/sample-service-1.0.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/web.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0.war</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+      </paths>
+    </changelog>
+  </logs>
+</log>

@@ -1,0 +1,184 @@
+<log plugin="filesystem_scm@1.20">
+  <logs>
+    <changelog>
+      <parent reference="../../.."/>
+      <paths>
+        <path>
+          <value>implementation/target/classes/org/example/core/Greeter.class</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/classes/springImplementationContext.xml</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/maven-archiver/pom.properties</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>implementation/target/sample-implementation-1.0.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/classes/org/example/core/IGreeter.class</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/maven-archiver/pom.properties</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>interface/target/sample-interface-1.0.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/classes/org/example/service/GreetingService.class</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/classes/springServiceContext.xml</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/maven-archiver/pom.properties</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/sample-service-1.0.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/surefire-reports/org.example.service.GreetingServiceTest.txt</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/surefire-reports/TEST-org.example.service.GreetingServiceTest.xml</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>service/target/test-classes/org/example/service/GreetingServiceTest.class</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/classes/org/example/web/HomeController.class</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/classes/springWebContext.xml</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/maven-archiver/pom.properties</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/css/bootstrap.css</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/page/home.jsp</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/classes/org/example/web/HomeController.class</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/classes/springWebContext.xml</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/aopalliance-1.0.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/commons-logging-1.1.1.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/sample-implementation-1.0.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/sample-interface-1.0.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/sample-service-1.0.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0/WEB-INF/web.xml</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>web/target/sample-web-1.0.war</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+      </paths>
+    </changelog>
+  </logs>
+</log>

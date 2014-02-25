@@ -1,0 +1,14 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/seena/.jenkins/workspace/maven_multi_sonar
+Fetching changes from the remote Git repository
+Fetching upstream changes from https://github.com/manish-in-java/maven-multi-module.git
+Checking out Revision 229fc82bc257ed5aca2271843d5f9b80d9cc3a3d (origin/master)
+Parsing POMs
+Discovered a new module org.example:sample sample
+Discovered a new module org.example:sample-interface sample-interface
+Discovered a new module org.example:sample-implementation sample-implementation
+Discovered a new module org.example:sample-service sample-service
+Discovered a new module org.example:sample-web sample-web
+Modules changed, recalculating dependency graph
+ERROR: No classworlds*.jar found in /usr/local/Cellar/maven/3.1.1 -- Is this a valid maven2/3 directory?
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

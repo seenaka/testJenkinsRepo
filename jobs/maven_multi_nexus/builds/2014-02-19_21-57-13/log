@@ -1,0 +1,7 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/seena/.jenkins/workspace/maven_multi_debugSnr
+FSSCM.checkout /Users/seena/development/STS/maven-multi-module to /Users/seena/.jenkins/workspace/maven_multi_debugSnr
+FSSCM.check completed in 211 milliseconds
+Archiving artifacts
+Skipping sonar analysis due to bad build status FAILURE
+Finished: FAILURE

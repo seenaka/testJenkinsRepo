@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.1">
+  <actions/>
+  <number>15</number>
+  <startTime>1392834840502</startTime>
+  <result>NOT_BUILT</result>
+  <duration>34</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/seena/.jenkins/workspace/maven_multi_debugSnr</workspace>
+</hudson.maven.MavenBuild>
