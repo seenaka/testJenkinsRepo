@@ -10,8 +10,8 @@
   </properties>
   <scm class="hudson.plugins.filesystem_scm.FSSCM" plugin="filesystem_scm@1.20">
     <path>/Users/seena/development/STS/maven-multi-module/web/src</path>
-    <clearWorkspace>false</clearWorkspace>
-    <copyHidden>false</copyHidden>
+    <clearWorkspace>true</clearWorkspace>
+    <copyHidden>true</copyHidden>
     <filterEnabled>false</filterEnabled>
     <includeFilter>false</includeFilter>
     <filters/>
@@ -22,10 +22,14 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>tar -zcvf $BUILD_TAG $WORKSPACE </command>
+    </hudson.tasks.Shell>
+  </builders>
   <publishers>
     <hudson.tasks.ArtifactArchiver>
-      <artifacts>**/*.*</artifacts>
+      <artifacts>**/*.zip</artifacts>
       <latestOnly>false</latestOnly>
       <allowEmptyArchive>false</allowEmptyArchive>
     </hudson.tasks.ArtifactArchiver>
