@@ -25,7 +25,7 @@
   <builders/>
   <publishers>
     <hudson.tasks.ArtifactArchiver>
-      <artifacts>*.*</artifacts>
+      <artifacts>**</artifacts>
       <latestOnly>false</latestOnly>
       <allowEmptyArchive>false</allowEmptyArchive>
     </hudson.tasks.ArtifactArchiver>
