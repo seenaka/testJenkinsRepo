@@ -21,18 +21,13 @@
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <jdk>(Inherit From Job)</jdk>
-  <triggers>
-    <hudson.triggers.SCMTrigger>
-      <spec></spec>
-      <ignorePostCommitHooks>false</ignorePostCommitHooks>
-    </hudson.triggers.SCMTrigger>
-  </triggers>
+  <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
     <groupId>org.example</groupId>
     <artifactId>sample</artifactId>
   </rootModule>
-  <goals>clean package</goals>
+  <goals>install</goals>
   <defaultGoals>package</defaultGoals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
