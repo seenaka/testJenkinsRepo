@@ -28,8 +28,7 @@
     </hudson.tasks.Shell>
     <hudson.tasks.Shell>
       <command>mvn deploy:deploy-file \
-    -Durl=$REPO_URL \
-    -DrepositoryId=$REPO_ID \
+    -Durl=http://localhost:8081/nexus/content/repositories/snapshots \
     -DgroupId=org.myorg \
     -DartifactId=myproj \
     -Dversion=ver-${BUILD_NUMBER}-SNAPSHOT  \
