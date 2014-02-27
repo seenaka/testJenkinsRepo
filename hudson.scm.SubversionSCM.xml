@@ -1,7 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson.scm.SubversionSCM_-DescriptorImpl plugin="subversion@1.54">
-  <generation>1</generation>
-  <credentials class="hashtable"/>
+  <generation>2</generation>
+  <credentials class="hashtable">
+    <entry>
+      <string>&lt;https://alm.steelthread.com:443&gt; Redmine SVN Repository</string>
+      <hudson.scm.SubversionSCM_-DescriptorImpl_-PasswordCredential>
+        <userName>skasmai</userName>
+        <password>ZhoXAybWlHazd/ZW2mgRFuRDc8bN8gcbGcM+EOZwGi4=</password>
+      </hudson.scm.SubversionSCM_-DescriptorImpl_-PasswordCredential>
+    </entry>
+  </credentials>
   <workspaceFormat>8</workspaceFormat>
   <validateRemoteUpToVar>false</validateRemoteUpToVar>
   <storeAuthToDisk>true</storeAuthToDisk>
