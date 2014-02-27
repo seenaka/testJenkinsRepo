@@ -28,7 +28,7 @@
     <groupId>org.sonatype.mavenbook.multispring</groupId>
     <artifactId>simple-webapp</artifactId>
   </rootModule>
-  <rootPOM>simple-parent/simple-webapp/pom.xml</rootPOM>
+  <rootPOM>simple-parent/pom.xml</rootPOM>
   <goals>clean install</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
