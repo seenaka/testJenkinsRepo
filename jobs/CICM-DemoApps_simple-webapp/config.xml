@@ -26,7 +26,7 @@
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
     <groupId>org.sonatype.mavenbook.multispring</groupId>
-    <artifactId>simple-webapp</artifactId>
+    <artifactId>simple-parent</artifactId>
   </rootModule>
   <rootPOM>simple-parent/pom.xml</rootPOM>
   <goals>clean install</goals>
