@@ -8,15 +8,23 @@
       <notOnThisProject>false</notOnThisProject>
     </org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty>
   </properties>
-  <scm class="hudson.plugins.filesystem_scm.FSSCM" plugin="filesystem_scm@1.20">
-    <path>/Users/seena/development/STS/CICM-DemoApps</path>
-    <clearWorkspace>true</clearWorkspace>
-    <copyHidden>false</copyHidden>
-    <filterEnabled>true</filterEnabled>
-    <includeFilter>false</includeFilter>
-    <filters>
-      <string>**/target/**</string>
-    </filters>
+  <scm class="hudson.scm.SubversionSCM" plugin="subversion@1.54">
+    <locations>
+      <hudson.scm.SubversionSCM_-ModuleLocation>
+        <remote>https://alm.steelthread.com/svn/cicm_manage_repos.cicm_end2end_demo</remote>
+        <local>.</local>
+        <depthOption>infinity</depthOption>
+        <ignoreExternalsOption>false</ignoreExternalsOption>
+      </hudson.scm.SubversionSCM_-ModuleLocation>
+    </locations>
+    <excludedRegions></excludedRegions>
+    <includedRegions></includedRegions>
+    <excludedUsers></excludedUsers>
+    <excludedRevprop></excludedRevprop>
+    <excludedCommitMessages></excludedCommitMessages>
+    <workspaceUpdater class="hudson.scm.subversion.UpdateUpdater"/>
+    <ignoreDirPropChanges>false</ignoreDirPropChanges>
+    <filterChangelog>false</filterChangelog>
   </scm>
   <canRoam>true</canRoam>
   <disabled>false</disabled>
