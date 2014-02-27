@@ -24,7 +24,7 @@
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
     <groupId>org.sonatype.mavenbook.multispring</groupId>
-    <artifactId>CICM-DemoApps</artifactId>
+    <artifactId>simple-webapp</artifactId>
   </rootModule>
   <rootPOM>simple-parent/simple-webapp/pom.xml</rootPOM>
   <goals>clean install</goals>
