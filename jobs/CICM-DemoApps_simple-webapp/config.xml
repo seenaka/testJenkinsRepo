@@ -26,6 +26,7 @@
     <groupId>org.sonatype.mavenbook.multispring</groupId>
     <artifactId>CICM-DemoApps</artifactId>
   </rootModule>
+  <rootPOM>simple-parent/simple-webapp/pom.xml</rootPOM>
   <goals>clean install</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
