@@ -1,14 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <maven2-moduleset plugin="maven-plugin@2.1">
+  <actions/>
+  <description>CICM-DemoApps</description>
   <keepDependencies>false</keepDependencies>
-  <properties/>
-  <scm class="hudson.scm.NullSCM"/>
-  <canRoam>false</canRoam>
+  <properties>
+    <org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty plugin="maven-repo-cleaner@1.2">
+      <notOnThisProject>false</notOnThisProject>
+    </org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty>
+  </properties>
+  <scm class="hudson.plugins.filesystem_scm.FSSCM" plugin="filesystem_scm@1.20">
+    <path>/Users/seena/development/STS/CICM-DemoApps</path>
+    <clearWorkspace>true</clearWorkspace>
+    <copyHidden>false</copyHidden>
+    <filterEnabled>false</filterEnabled>
+    <includeFilter>false</includeFilter>
+    <filters/>
+  </scm>
+  <canRoam>true</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
+  <goals>clean install</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
   <ignoreUpstremChanges>false</ignoreUpstremChanges>
@@ -25,4 +39,10 @@
   <buildWrappers/>
   <prebuilders/>
   <postbuilders/>
+  <runPostStepsIfResult>
+    <name>FAILURE</name>
+    <ordinal>2</ordinal>
+    <color>RED</color>
+    <completeBuild>true</completeBuild>
+  </runPostStepsIfResult>
 </maven2-moduleset>
