@@ -12,9 +12,11 @@
     <path>/Users/seena/development/STS/CICM-DemoApps</path>
     <clearWorkspace>true</clearWorkspace>
     <copyHidden>false</copyHidden>
-    <filterEnabled>false</filterEnabled>
+    <filterEnabled>true</filterEnabled>
     <includeFilter>false</includeFilter>
-    <filters/>
+    <filters>
+      <string>**/target/**</string>
+    </filters>
   </scm>
   <canRoam>true</canRoam>
   <disabled>false</disabled>
