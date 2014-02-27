@@ -11,7 +11,7 @@
   <scm class="hudson.scm.SubversionSCM" plugin="subversion@1.54">
     <locations>
       <hudson.scm.SubversionSCM_-ModuleLocation>
-        <remote>https://alm.steelthread.com/svn/cicm_manage_repos.cicm_end2end_demo</remote>
+        <remote>https://alm.steelthread.com/svn/cicm_manage_repos.cicm_end2end_demo/trunk/CICM-DemoApps</remote>
         <local>.</local>
         <depthOption>infinity</depthOption>
         <ignoreExternalsOption>false</ignoreExternalsOption>
