@@ -29,6 +29,19 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.AllView>
+    <hudson.plugins.nested__view.NestedView plugin="nested-view@1.14">
+      <owner class="hudson" reference="../../.."/>
+      <name>CICM</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <views/>
+      <columns>
+        <columns>
+          <hudson.views.StatusColumn/>
+        </columns>
+      </columns>
+    </hudson.plugins.nested__view.NestedView>
   </views>
   <primaryView>All</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
