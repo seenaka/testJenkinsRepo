@@ -46,11 +46,15 @@
             <listView>
               <owner class="hudson.plugins.nested_view.NestedView" reference="../../.."/>
               <name>CICM-DemoApp-Pipeline</name>
+              <description>Here is a diragram of the maven projects in these builds:&#xd;
+&#xd;
+&lt;img src=&quot;https://raw.github.com/sonatype/maven-example-en/master/figs/web/multimodule-web-spring_projects.png&quot;/&gt;</description>
               <filterExecutors>false</filterExecutors>
               <filterQueue>false</filterQueue>
               <properties class="hudson.model.View$PropertyList"/>
               <jobNames>
                 <comparator class="hudson.util.CaseInsensitiveComparator"/>
+                <string>CICM-DemoApps_simple-webapp</string>
               </jobNames>
               <jobFilters/>
               <columns>
