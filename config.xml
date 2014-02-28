@@ -43,6 +43,9 @@
           <filterQueue>false</filterQueue>
           <properties class="hudson.model.View$PropertyList"/>
           <views/>
+          <columns>
+            <columns/>
+          </columns>
         </hudson.plugins.nested__view.NestedView>
       </views>
       <columns>
