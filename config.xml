@@ -102,6 +102,17 @@
         </columns>
       </columns>
     </hudson.plugins.nested__view.NestedView>
+    <hudson.plugins.nested__view.NestedView plugin="nested-view@1.14">
+      <owner class="hudson" reference="../../.."/>
+      <name>TEST Nested View Toplevel</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <views/>
+      <columns>
+        <columns/>
+      </columns>
+    </hudson.plugins.nested__view.NestedView>
   </views>
   <primaryView>All</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
