@@ -91,6 +91,7 @@
               <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
             </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
           </views>
+          <defaultView>CICM-DemoApp-Pipeline</defaultView>
           <columns>
             <columns/>
           </columns>
