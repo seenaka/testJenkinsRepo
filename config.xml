@@ -55,6 +55,8 @@
               <jobNames>
                 <comparator class="hudson.util.CaseInsensitiveComparator"/>
                 <string>CICM-DemoApps_simple-webapp</string>
+                <string>CICM-DemoApps_simple-webapp-Deploy</string>
+                <string>CICM-DemoApps_simple-webapp-Release</string>
               </jobNames>
               <jobFilters/>
               <columns>
@@ -68,6 +70,20 @@
               </columns>
               <recurse>false</recurse>
             </listView>
+            <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView plugin="build-pipeline-plugin@1.4.2">
+              <owner class="hudson.plugins.nested_view.NestedView" reference="../../.."/>
+              <name>Pipeline-View</name>
+              <filterExecutors>false</filterExecutors>
+              <filterQueue>false</filterQueue>
+              <properties class="hudson.model.View$PropertyList"/>
+              <consoleOutputLinkStyle>Lightbox</consoleOutputLinkStyle>
+              <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
+              <alwaysAllowManualTrigger>false</alwaysAllowManualTrigger>
+              <showPipelineParameters>false</showPipelineParameters>
+              <showPipelineParametersInHeaders>false</showPipelineParametersInHeaders>
+              <refreshFrequency>3</refreshFrequency>
+              <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
+            </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
           </views>
           <columns>
             <columns/>
