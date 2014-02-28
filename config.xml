@@ -117,6 +117,9 @@
           <properties class="hudson.model.View$PropertyList"/>
           <jobNames>
             <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../../hudson.plugins.nested__view.NestedView/views/hudson.plugins.nested__view.NestedView/views/listView/jobNames/comparator"/>
+            <string>CICM-DemoApps_simple-webapp</string>
+            <string>CICM-DemoApps_simple-webapp-Deploy</string>
+            <string>CICM-DemoApps_simple-webapp-Release</string>
           </jobNames>
           <jobFilters/>
           <columns>
