@@ -28,6 +28,11 @@
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
   <reporters/>
   <publishers>
+    <hudson.maven.RedeployPublisher>
+      <id></id>
+      <uniqueVersion>true</uniqueVersion>
+      <evenIfUnstable>false</evenIfUnstable>
+    </hudson.maven.RedeployPublisher>
     <hudson.tasks.BuildTrigger>
       <childProjects>CICM-DemoApps_simple-webapp-Deploy</childProjects>
       <threshold>
@@ -40,15 +45,15 @@
   </publishers>
   <buildWrappers>
     <org.jvnet.hudson.plugins.m2release.M2ReleaseBuildWrapper plugin="m2release@0.13.0">
-      <scmUserEnvVar></scmUserEnvVar>
-      <scmPasswordEnvVar></scmPasswordEnvVar>
+      <scmUserEnvVar>skasmai</scmUserEnvVar>
+      <scmPasswordEnvVar>password</scmPasswordEnvVar>
       <releaseEnvVar>IS_M2RELEASEBUILD</releaseEnvVar>
       <releaseGoals>-Dresume=false release:prepare release:perform</releaseGoals>
       <dryRunGoals>-Dresume=false -DdryRun=true release:prepare</dryRunGoals>
-      <selectCustomScmCommentPrefix>false</selectCustomScmCommentPrefix>
+      <selectCustomScmCommentPrefix>true</selectCustomScmCommentPrefix>
       <selectAppendHudsonUsername>false</selectAppendHudsonUsername>
       <selectScmCredentials>false</selectScmCredentials>
-      <numberOfReleaseBuildsToKeep>1</numberOfReleaseBuildsToKeep>
+      <numberOfReleaseBuildsToKeep>-1</numberOfReleaseBuildsToKeep>
     </org.jvnet.hudson.plugins.m2release.M2ReleaseBuildWrapper>
   </buildWrappers>
   <prebuilders/>
