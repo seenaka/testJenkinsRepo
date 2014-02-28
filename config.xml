@@ -103,42 +103,6 @@
         </columns>
       </columns>
     </hudson.plugins.nested__view.NestedView>
-    <hudson.plugins.nested__view.NestedView plugin="nested-view@1.14">
-      <owner class="hudson" reference="../../.."/>
-      <name>TEST Nested View Toplevel</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-      <views>
-        <listView>
-          <owner class="hudson.plugins.nested_view.NestedView" reference="../../.."/>
-          <name>CICM Jobs</name>
-          <filterExecutors>false</filterExecutors>
-          <filterQueue>false</filterQueue>
-          <properties class="hudson.model.View$PropertyList"/>
-          <jobNames>
-            <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../../hudson.plugins.nested__view.NestedView/views/hudson.plugins.nested__view.NestedView/views/listView/jobNames/comparator"/>
-            <string>CICM-DemoApps_simple-webapp</string>
-            <string>CICM-DemoApps_simple-webapp-Deploy</string>
-            <string>CICM-DemoApps_simple-webapp-Release</string>
-          </jobNames>
-          <jobFilters/>
-          <columns>
-            <hudson.views.StatusColumn/>
-            <hudson.views.WeatherColumn/>
-            <hudson.views.JobColumn/>
-            <hudson.views.LastSuccessColumn/>
-            <hudson.views.LastFailureColumn/>
-            <hudson.views.LastDurationColumn/>
-            <hudson.views.BuildButtonColumn/>
-          </columns>
-          <recurse>false</recurse>
-        </listView>
-      </views>
-      <columns>
-        <columns/>
-      </columns>
-    </hudson.plugins.nested__view.NestedView>
   </views>
   <primaryView>All</primaryView>
   <slaveAgentPort>0</slaveAgentPort>
