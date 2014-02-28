@@ -55,8 +55,6 @@
               <jobNames>
                 <comparator class="hudson.util.CaseInsensitiveComparator"/>
                 <string>CICM-DemoApps_simple-webapp</string>
-                <string>CICM-DemoApps_simple-webapp-Deploy</string>
-                <string>CICM-DemoApps_simple-webapp-Release</string>
               </jobNames>
               <jobFilters/>
               <columns>
